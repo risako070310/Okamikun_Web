@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'MyFont';
+	src: url();
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
+
+/*パソコン向け*/
+@media screen and (min-width:1025px) {
+
+}
+
+/*タブレット向け*/
+@media screen and (min-width:481px) and (max-width:1024px) {
+    
+}
+
+/*スマホ向け*/
+@media screen and (min-width:1px) and (max-width:480px) {
+    
+}
