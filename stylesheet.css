@@ -136,10 +136,146 @@ footer small{
 
 /*タブレット向け*/
 @media screen and (min-width:481px) and (max-width:1024px) {
+    .top{
+        margin-bottom: 300px;
+    }
+    .catch{
+        margin: 100px 150px;
+    }
+    .first{
+        font-size: 20px;
+    }
+    .second{
+        font-size: 30px;
+    }
     
+    .intro{
+        width: 600px;
+        padding: 0 80px;
+        margin: 0 calc((100% - 760px) / 2);
+        margin-bottom: 300px;
+    }
+    .intro_pic{
+        width: 200px;
+        float: left;
+        margin: 20px;
+    }
+    .intro_p{
+        font-size: 12px;
+    }
+    
+    .app{
+        margin-bottom: 300px;
+    }
+    .app_p{
+        width: 650px;
+        margin: 0 calc((100% - 650px) / 2);
+    }
+    .phone_pic{
+        width: 485px;
+        margin: 0 calc((100% - 485px) / 2);
+        margin-bottom: 50px;
+    }
+    .phone{
+        width: 200px;
+        margin: 0 20px;
+    }
+    .app_link{
+        font-size: 20px;
+        margin: 0 30px;
+    }
+    .link_box{
+        width: 380px;
+        margin: 0 calc((100% - 380px) / 2);
+    }
+    
+    .movie{
+        margin-bottom: 200px;
+    }
+    
+    .sound{
+        margin-bottom: 300px;
+    }
+    .sound_p{
+        text-align: center;
+        font-size: 25px;
+    }
 }
 
 /*スマホ向け*/
 @media screen and (min-width:1px) and (max-width:480px) {
+    .title{
+        font-size: 20px;
+    }
+    .subtitle{
+        font-size: 15px;
+    }
+    .top{
+        margin-bottom: 100px;
+    }
+    .catch{
+        margin: 10px;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    .bio{
+        font-size: 10px;
+    }
+    .first{
+        font-size: 13px;
+    }
+    .second{
+        font-size: 15px;
+    }
     
+    .intro{
+        margin-bottom: 100px;
+    }
+    .intro_pic{
+        width: 200px;
+        margin: 0 calc((100% - 200px) / 2);
+    }
+    .intro_p{
+        width: 300px;
+        font-size: 8px;
+        margin: 10px calc((100% - 300px) / 2);
+    }
+    
+    .app{
+        margin-bottom: 100px;
+    }
+    .app_p{
+        width: 300px;
+        font-size: 8px;
+        margin: 10px calc((100% - 300px) / 2);
+    }
+    .phone_pic{
+        width: 250px;
+        margin: 0 calc((100% - 250px) / 2);
+        margin-bottom: 30px;
+    }
+    .phone{
+        width: 100px;
+        margin: 0 10px;
+    }
+    .app_link{
+        font-size: 15px;
+        margin: 0 10px;
+    }
+    .link_box{
+        width: 250px;
+        margin: 0 calc((100% - 250px) / 2);
+    }
+    
+    .movie{
+        margin-bottom: 200px;
+    }
+    
+    .sound{
+        margin-bottom: 300px;
+    }
+    .sound_p{
+        text-align: center;
+        font-size: 25px;
+    }
 }
