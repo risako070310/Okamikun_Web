@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'MyFont';
-	src: url();
+	font-family: 'antro';
+	src: url(Antro_Vectra.otf);
 }
 *{
     margin: 0px;
@@ -8,7 +8,56 @@
 }
 body{
     width: 100%;
-    font-family: 'M PLUS 1p', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    background: #101010;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    color: #eee;
+}
+
+.banner{
+    width: 100%;
+}
+.catch{
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+.bio{
+    text-align: center;
+}
+
+.title{
+    font-family: antro;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.subtitle{
+    font-family: antro;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.intro_p{
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.app_p{
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+.app_link{
+    text-decoration: none;
+    color: #eee;
+}
+.app_link:hover{
+    border-bottom: 2px solid #eee;
+}
+
+.sound_p{
+    font-family: antro;
+    text-align: center;
 }
 
 footer{
@@ -16,9 +65,73 @@ footer{
     padding: 10px;
 }
 
+footer small{
+    color: #eee;
+}
+
 /*パソコン向け*/
 @media screen and (min-width:1025px) {
-
+    .top{
+        margin-bottom: 300px;
+    }
+    .catch{
+        margin: 100px 150px;
+    }
+    .first{
+        font-size: 20px;
+    }
+    .second{
+        font-size: 30px;
+    }
+    
+    .intro{
+        padding: 0 200px;
+        margin-bottom: 300px;
+    }
+    .intro_pic{
+        width: 350px;
+        float: left;
+        margin: 0 100px;
+    }
+    
+    .app{
+        margin-bottom: 300px;
+    }
+    .app_p{
+        width: 650px;
+        margin: 0 calc((100% - 650px) / 2);
+    }
+    .phone_pic{
+        width: 485px;
+        margin: 0 calc((100% - 485px) / 2);
+        margin-bottom: 50px;
+    }
+    .phone{
+        width: 200px;
+        margin: 0 20px;
+    }
+    .app_link{
+        font-size: 20px;
+        margin: 0 30px;
+    }
+    .link_box{
+        width: 380px;
+        margin: 0 calc((100% - 380px) / 2);
+    }
+    
+    .movie{
+        margin-bottom: 200px;
+    }
+    
+    .sound{
+        margin-bottom: 300px;
+    }
+    .sound_p{
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    
 }
 
 /*タブレット向け*/
