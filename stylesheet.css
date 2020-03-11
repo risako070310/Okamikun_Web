@@ -64,6 +64,14 @@ h1, h2, h3, h4, h5, h6, p{
     text-align: center;
 }
 
+.season1:hover {
+    opacity: 0.7;
+}
+
+.season2:hover {
+    opacity: 0.7;
+}
+
 footer{
     text-align: center;
     padding: 10px;
